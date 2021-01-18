@@ -1174,3 +1174,15 @@ body {
 .card {
   text-align: center;
   margin-top: 10px; }
+
+.click {
+  font-family: 'Sarabun', sans-serif !important;
+  font-weight: 700;
+  font-size: 18px;
+  color: black; }
+
+.click:hover {
+  color: #BCBCBC; }
+
+.border {
+  color: #BCBCBC; }
