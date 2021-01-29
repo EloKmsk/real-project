@@ -1186,3 +1186,151 @@ body {
 
 .border {
   color: #BCBCBC; }
+
+.fs-1 {
+  font-family: 'Satisfy', cursive !important; }
+
+.plat {
+  font-family: 'Sarabun', sans-serif !important;
+  font-weight: 700;
+  font-size: 18px;
+  color: black; }
+
+.detail {
+  font-family: 'Sarabun', sans-serif !important;
+  font-weight: 400;
+  font-size: 18px;
+  color: black; }
+
+.prix {
+  font-family: 'Sarabun', sans-serif !important;
+  font-weight: 700;
+  font-size: 18px;
+  color: #b80606; }
+
+.contact {
+  display: flex; }
+
+.text {
+  font-size: 18px;
+  font-family: 'Sarabun', sans-serif !important; }
+
+body {
+  background-color: #bcbcbc !important; }
+
+.container-footer {
+  background: white;
+  border-radius: 20px !important;
+  padding-top: 10px !important; }
+
+h2 {
+  font-family: 'Satisfy', cursive !important; }
+
+p {
+  font-family: 'Sarabun', sans-serif !important; }
+
+.logo-halal {
+  width: 17%;
+  margin-bottom: 10px; }
+
+.footer-title {
+  font-size: 30px; }
+
+.footer-border {
+  border-bottom: 4px solid #dee2e6 !important;
+  border-bottom-width: 1px; }
+
+@media (min-width: 992px) {
+  .footer-border {
+    border-right: 4px solid #dee2e6 !important;
+    border-right-width: 1px;
+    border-bottom: none !important; }
+  #footer-contact {
+    padding-top: 6%; }
+  #footer-contact-hour {
+    padding-top: 2%; }
+  #footer-contact-mention {
+    padding-top: 2%; } }
+
+.created-by-text {
+  font-weight: bold; }
+
+.created-by-title {
+  font-family: 'Satisfy', cursive !important;
+  font-size: 30px; }
+
+.card-body {
+  font-family: 'Satisfy', cursive !important;
+  font-size: 20px !important; }
+
+.card {
+  text-align: center; }
+
+.heading {
+  padding-top: 4%;
+  font-family: 'Sarabun', sans-serif !important; }
+
+#speciality-container {
+  background: #bcbcbc !important; }
+
+#portfolio-section {
+  background: white;
+  margin: auto;
+  width: 98%; }
+
+#about-section {
+  background: white;
+  margin: auto;
+  width: 81%; }
+
+.news {
+  width: 90% !important; }
+
+p {
+  font-size: 18px; }
+
+.about__img {
+  width: 100%; }
+
+.item {
+  position: relative; }
+
+.item:hover {
+  -webkit-box-shadow: -9px 32px 180px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 32px 180px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: -9px 32px 180px -22px rgba(0, 0, 0, 0.75);
+  transition: 1s; }
+
+.item:before {
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(238, 235, 230, 0.192);
+  opacity: 0;
+  position: absolute; }
+
+.item:hover::before {
+  opacity: 1;
+  transition: 0.5s; }
+
+.thumbnail {
+  position: relative; }
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%; }
+
+.title {
+  padding-top: 60%;
+  color: white;
+  font-family: 'Sarabun', sans-serif !important;
+  font-size: 50 !important;
+  font-weight: 800 !important; }
+
+.item a {
+  text-decoration: none !important;
+  color: white !important; }

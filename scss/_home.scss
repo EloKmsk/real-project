@@ -1,0 +1,98 @@
+.card-body {
+    font-family: 'Satisfy', cursive !important;
+    font-size: 20px !important; 
+}
+  
+.card {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 4%;
+    font-family: 'Sarabun', sans-serif !important;
+}
+
+#speciality-container {
+    background: #bcbcbc !important;
+}
+
+#portfolio-section {
+    background: white;
+    margin: auto;
+    width: 98%;
+}
+
+#about-section {
+    background: white;
+    margin: auto;
+    width: 81%;
+}
+
+
+.news {
+    width: 90% !important;
+}
+
+p {
+    font-size: 18px;
+}
+
+.about__img {
+    width: 100%;
+}
+
+.item {
+    position: relative;
+}
+
+.item:hover {
+    -webkit-box-shadow: -9px 32px 180px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 32px 180px -22px rgba(0,0,0,0.75);
+    box-shadow: -9px 32px 180px -22px rgba(0,0,0,0.75);
+    transition: 1s;
+}
+
+
+
+.item:before {
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(238, 235, 230, 0.192);
+    opacity: 0;
+    position: absolute;
+}
+
+.item:hover::before {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.title {
+    padding-top: 60%;
+    color: white;
+    font-family: 'Sarabun', sans-serif !important;
+    font-size: 50 !important;
+    font-weight: 800 !important;
+    
+}
+
+.item a {
+    text-decoration: none !important;
+    color: white !important;
+    
+}
+
