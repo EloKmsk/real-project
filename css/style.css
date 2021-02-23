@@ -1161,7 +1161,8 @@ body {
 .home-img img {
   width: 100%;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 20px; }
 
 .navbar-toggler-icon {
   width: 0.6em !important;
@@ -1276,12 +1277,14 @@ p {
 #portfolio-section {
   background: white;
   margin: auto;
-  width: 98%; }
+  width: 98%;
+  border-radius: 20px; }
 
 #about-section {
   background: white;
   margin: auto;
-  width: 81%; }
+  width: 81%;
+  border-radius: 20px; }
 
 .news {
   width: 90% !important; }
@@ -1293,27 +1296,8 @@ p {
   width: 100%; }
 
 .item {
-  position: relative; }
-
-.item:hover {
-  -webkit-box-shadow: -9px 32px 180px -22px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -9px 32px 180px -22px rgba(0, 0, 0, 0.75);
-  box-shadow: -9px 32px 180px -22px rgba(0, 0, 0, 0.75);
-  transition: 1s; }
-
-.item:before {
-  content: "";
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(238, 235, 230, 0.192);
-  opacity: 0;
-  position: absolute; }
-
-.item:hover::before {
-  opacity: 1;
-  transition: 0.5s; }
+  position: relative;
+  border-radius: 20px; }
 
 .thumbnail {
   position: relative; }
@@ -1334,3 +1318,8 @@ p {
 .item a {
   text-decoration: none !important;
   color: white !important; }
+
+.item h2 {
+  border-radius: 20px;
+  padding-bottom: 50%;
+  z-index: 1; }
