@@ -1260,6 +1260,13 @@ p {
   font-family: 'Satisfy', cursive !important;
   font-size: 30px; }
 
+.mention {
+  color: black;
+  text-decoration: none; }
+
+.mention:hover {
+  color: #bcbcbc; }
+
 .card-body {
   font-family: 'Satisfy', cursive !important;
   font-size: 20px !important; }
@@ -1283,7 +1290,7 @@ p {
 #about-section {
   background: white;
   margin: auto;
-  width: 81%;
+  width: 85%;
   border-radius: 20px; }
 
 .news {
@@ -1323,3 +1330,18 @@ p {
   border-radius: 20px;
   padding-bottom: 50%;
   z-index: 1; }
+
+.base {
+  border-radius: 20px; }
+
+h4 {
+  font-family: 'Satisfy', cursive !important;
+  font-size: 26px !important; }
+
+h5 {
+  font-family: 'Satisfy', cursive !important;
+  text-decoration: underline; }
+
+li {
+  font-family: 'Sarabun', sans-serif !important;
+  font-size: 18px !important; }
